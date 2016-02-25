@@ -14,6 +14,7 @@ function initMap() {
       title: 'UCSD'
   });
 
+  //new marker
   map.addListener('click', function(event) {
     var marker = new google.maps.Marker({
       position: event.latLng,
